@@ -8,15 +8,19 @@ function theBeatlesPlay(musicians, instruments) {
   return resultArray;
 }
 
-/*function johnLennonFacts(facts) {    
+/*
+
+function johnLennonFacts(facts) {    
   var resultArray = [];
   var i = 0;
-  while(facts.length > i) {             
+  while(facts.length > 0) {             
     resultArray.push(`${facts[i]}!!!`);
+    facts.length--;     // this change the original element data not just countting the length of element. miundersand...
     i++;
   }
    return resultArray;
 }
+
 */
 function johnLennonFacts(facts) {    
   var resultArray = [];
