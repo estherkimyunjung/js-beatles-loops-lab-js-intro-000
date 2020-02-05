@@ -15,7 +15,7 @@ function johnLennonFacts(facts) {
   var i = 0;
   while(facts.length > 0) {             
     resultArray.push(`${facts[i]}!!!`);
-    facts.length--;     // this change the original element data not just countting the length of element. miundersand...
+    facts.length--;     // this changes the original element data not just counting the length of the element. I misunderstood...
     i++;
   }
    return resultArray;
